@@ -4,7 +4,7 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     static void main(String[] args) {
-        int a =10;
+        int a =100;
         if(a<10) {
             System.out.println("naklebia");
         }

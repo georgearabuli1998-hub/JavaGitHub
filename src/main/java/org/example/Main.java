@@ -82,16 +82,17 @@ public class Main {
         // დავალება  5    შემოიტანე ნებისმიერი სტრინგი და while -ით დათვალე ამ სტრინგში
         //რამდენი თანხმოვანი არის
 
-        String textFor5 = "ტატუ ,.";
+        String textFor5 = "ტატუ ,21.";
+        char[] xmovnebi1 = {'ა', 'ე', 'ი', 'ო', 'უ','1','2','3','4','5','6','7','8','9','0','!','@','#','%','^','&','*','(',')','-','_','+','=','"',';'};
         int a = 0;
         int tanxmovnebisRaodenoba = 0;
         while (a < textFor5.length()) {
             char charss = textFor5.charAt(a);
             int b = 0;
             boolean xmovania = false;
-            while (b < xmovnebi.length) {
+            while (b < xmovnebi1.length) {
 
-                if (xmovnebi[b] == charss || charss == ' ') {
+                if (xmovnebi1[b] == charss || charss == ' ') {
                     xmovania = true;
                     break;
 

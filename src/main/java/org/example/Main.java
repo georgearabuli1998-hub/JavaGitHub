@@ -49,10 +49,8 @@ public class Main {
             } else {
                 textForShowing = listOfNumbers[j];
                 System.out.println(textForShowing);
-            }
-            ;
-        }
-        ;
+            };
+        };
 
 
         //დავალებები გამოვყავი ერთმანეთისგან დაბლა
@@ -100,19 +98,15 @@ public class Main {
                 } else if (charss == ',' || charss == '.') {
                     xmovania = true;
                     break;
-                }
-                ;
+                };
                 b++;
 
-            }
-            ;
+            };
             if (!xmovania) {
                 tanxmovnebisRaodenoba++;
-            }
-            ;
+            };
             a++;
-        }
-        ;
+        };
         System.out.println(tanxmovnebisRaodenoba);
 
 
